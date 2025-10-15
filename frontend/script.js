@@ -1,5 +1,17 @@
 // API base URL - Using relative path for proxy
-const API_BASE = '/api';
+// const API_BASE = '/api';
+
+// Load configuration
+let config;
+try {
+  // Try to load the config file
+  config = window.config || { API_BASE: '/api' };
+} catch (e) {
+  // Fallback to default if config not available
+  config = { API_BASE: '/api' };
+}
+
+const API_BASE = config.API_BASE;
 
 // Global variables
 let currentSessionId = null;

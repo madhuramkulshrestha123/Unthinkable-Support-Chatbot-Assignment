@@ -139,8 +139,11 @@ async function createCustomer(event) {
     }
     
     try {
+        // Use the API base from config
+        const API_BASE = (typeof config !== 'undefined') ? config.API_BASE : '/api';
+        
         // Send customer data to the backend
-        const response = await fetch('/api/customers', {
+        const response = await fetch(`${API_BASE}/customers`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
