@@ -46,6 +46,9 @@ This project simulates an AI-powered customer support chatbot. It includes a bac
 - **AI Language Preference**: Chatbot responses requested in user's selected language
 - **Real-time Translation**: Language changes take effect immediately without page refresh
 
+<img width="493" height="131" alt="image" src="https://github.com/user-attachments/assets/2ae22a6b-4b01-4e96-bbe3-2a5ede5027ee" />
+
+
 ### Additional Pages
 - **Working Page**: Explains how the chatbot works with step-by-step instructions and demo video
 - **FAQ Page**: Horizontal cards layout with common questions and answers
