@@ -2,6 +2,12 @@
 
 This project simulates an AI-powered customer support chatbot. It includes a backend API with REST endpoints and a frontend interface with a chatbot and customer profiles.
 
+<img width="1206" height="642" alt="image" src="https://github.com/user-attachments/assets/d42a0cf7-4ea2-48c2-a3d4-8f1ad8e97df5" />
+
+<img width="1199" height="635" alt="image" src="https://github.com/user-attachments/assets/71ef5c15-8dc6-4263-a270-004fe14d40e0" />
+
+## DEMO VEDIO LINK : https://shorturl.at/s1Gih
+
 ## Features
 
 - RESTful API backend built with Node.js and Express
@@ -19,6 +25,9 @@ This project simulates an AI-powered customer support chatbot. It includes a bac
 - FAQ page with horizontal cards layout
 
 ## New Features Added
+
+<img width="1024" height="1024" alt="Arch" src="https://github.com/user-attachments/assets/c4197be1-80bb-467d-a2ea-ab708257d2ef" />
+
 
 ### UI Enhancements
 - **Navigation Bar**: Added logo on left upper side with menu options (Create Customer, Working, FAQ) on right and language selector (English/Hindi)
