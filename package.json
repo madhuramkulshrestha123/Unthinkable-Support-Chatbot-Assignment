@@ -1,0 +1,22 @@
+{
+  "name": "unthinkable-support-chatbot",
+  "version": "1.0.0",
+  "description": "Unthinkable Support Chatbot - Simulates customer support interactions using AI for FAQs and escalation scenarios.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

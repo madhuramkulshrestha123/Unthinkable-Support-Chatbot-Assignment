@@ -1,0 +1,17 @@
+{
+  "name": "unthinkable-support-chatbot-frontend",
+  "version": "1.0.0",
+  "description": "Unthinkable Support Chatbot Frontend - Web interface for customer support interactions",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}

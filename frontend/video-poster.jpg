@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#2e7d32"/>
+  <circle cx="400" cy="225" r="80" fill="#4caf50"/>
+  <polygon points="360,185 360,265 440,225" fill="white"/>
+  <text x="400" y="350" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Demo Video</text>
+  <text x="400" y="380" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Unthinkable Support Chatbot</text>
+</svg>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Frontend</title>
+</head>
+<body>
+    <h1>Test Frontend</h1>
+    <button onclick="testApi()">Test API</button>
+    <div id="result"></div>
+
+    <script>
+        async function testApi() {
+            try {
+                const response = await fetch('/api/customers');
+                const data = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            } catch (error) {
+                document.getElementById('result').innerHTML = '<p>Error: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>
